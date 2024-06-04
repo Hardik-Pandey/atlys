@@ -11,7 +11,7 @@ const Signin = lazy(() => import('pages/Signin'));
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div />}>
+      <Suspense fallback={<div className='bg-[var(--primaryDark)] min-h-dvh' />}>
         <AuthProvider>
           <Navbar />
           <Routes>
