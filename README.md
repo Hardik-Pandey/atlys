@@ -10,5 +10,5 @@ This project is created with React, Typescript Tailwind. Deployed on Vercel.
 
 ## Production Environment
 1. Merge changes to master branch
-2. Auto-deployed on [https://atlys-hardik.vercel.app/](https://atlys-hardik.vercel.app/)
+2. Auto-deployed on [https://atlys-beta.vercel.app/](https://atlys-beta.vercel.app/)
 3. Enjoy
