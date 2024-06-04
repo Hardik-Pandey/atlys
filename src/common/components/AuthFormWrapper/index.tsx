@@ -42,7 +42,7 @@ const AuthFormWrapper: React.FC<AuthFormWrapperProps> = ({
       {secondary ? (
         <p className="text-sm font-medium text-[var(--gray2)] mt-3">
           {text}&nbsp;
-          <span onClick={onSecondaryLinkClick} className="text-[var(--gray1)]">
+          <span onClick={onSecondaryLinkClick} className="text-[var(--gray1)] cursor-pointer">
             {cta}
           </span>
         </p>
