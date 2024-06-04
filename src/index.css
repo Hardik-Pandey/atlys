@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* global.css */
+:root {
+  --primaryDark: #131319;
+  --secondaryDark: #27292d;
+  --tertiaryDark: #191920;
+
+  --gray1: #c5c7ca;
+  --gray2: #7f8084;
+  --gray3: #35373B;
+
+  --primaryCtaBg: #4A96FF;
+}
+
+.gradientBorder {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--secondaryDark), var(--secondaryDark)) padding-box, linear-gradient(129.59deg, #969696 0%, #343434 98.18%) border-box;
+}
+
+body {
+  /* font-family: Inter; */
+  font-weight: 400;
+}
