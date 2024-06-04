@@ -90,7 +90,7 @@ const CreatePost: React.FC<CreatePostProps> = ({ userId, setPostsData }) => {
               value={postData}
               placeholder="How are you feeling today?"
               onChange={handlePostDataChange}
-              className="ml-4 w-full border-none border-transparent leading-4 focus:outline-none"
+              className="ml-1 w-full border-none border-transparent leading-4 focus:outline-none"
             />
           </div>
         </div>
